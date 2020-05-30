@@ -97,7 +97,7 @@ class Details extends Component {
                     Population : {this.props.countryDetails.population}
                   </Typography>
                   <Typography variant="body1" color="textPrimary" gutterBottom>
-                    Lat-Long :{" "}
+                    Latitude-Longitude :{" "}
                     {this.props.countryDetails.latlng
                       ? this.props.countryDetails.latlng[0]
                       : 0}{" "}
@@ -116,7 +116,7 @@ class Details extends Component {
             onClick={this.capitalDetailsButton}
             className={classes.button}
           >
-            Capital Details
+            Capital Weather
           </Button>
         </Container>
 
